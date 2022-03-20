@@ -23,4 +23,4 @@ The data is sent to ThingSpeak periodically. A timer interrupt is used to achiev
 # Future Updates
 
 - Add make file
-- Add an option to send HTTP request on an event like a press of a switch instead of a time period
+- Add an option to send HTTP request on an event like a press of a switch

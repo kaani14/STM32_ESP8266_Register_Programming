@@ -12,7 +12,7 @@ PA0  | Rx
 3.3V  | EN / CH_PD
 
 
-# Testing the hardware
+# Testing ESP
 
 The MCU sends AT command to check if the connection between MCU and ESP8266 is stable and if ESP8266 is working. If the MCU receives 'OK' from ESP8266, the green LED on the Nucleo board lights up. If the MCU receives "ERROR", it tries to send another AT command. After receiving "ERROR" for the second time, the red LED on the board is turned on and the MCU goes to sleep. On receiving garbage or no value, the MCU goes to sleep after turning on the RED line.
 

@@ -87,5 +87,3 @@ void TS_Write(char* IP, int port, char* channel_write_key, double sensor_output)
 	delay(5000);
 	i = 0;
 }
-
-
